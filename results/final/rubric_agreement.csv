@@ -1,0 +1,7 @@
+dimension,n,cohen_kappa,krippendorff_alpha_ordinal
+correctness,3600,0.9036,0.963
+completeness,3600,1.0,1.0
+traceability_usefulness,3600,0.9573,0.9642
+governance_adequacy,3600,0.7147,0.8043
+hallucination_risk,3600,0.6477,0.7938
+all_dimensions,18000,,0.9357

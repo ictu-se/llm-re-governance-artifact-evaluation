@@ -1,0 +1,4 @@
+model,n_schema,n_no_schema,mean_schema,mean_no_schema,paired_n,mean_schema_minus_no_schema,paired_p_normal_approx
+llama3.2:3b,60,60,7.0333,6.4417,60,0.5917,0.011436
+qwen2.5-coder:3b,60,60,7.0917,5.8917,60,1.2,0.0
+qwen2.5:3b,60,60,7.025,7.2,60,-0.175,0.388703

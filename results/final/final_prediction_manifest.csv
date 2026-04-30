@@ -1,0 +1,16 @@
+file,model,rows,task_count,complete_240,errors,included_in_final
+results\predictions\codegemma_7b_predictions_v240.jsonl,codegemma:7b,240,240,1,0,1
+results\predictions\granite-code_3b_predictions_v240.jsonl,granite-code:3b,240,240,1,0,1
+results\predictions\granite-code_8b_predictions_v240_dedup.jsonl,granite-code:8b,240,240,1,0,1
+results\predictions\llama3.2_3b_predictions_v240.jsonl,llama3.2:3b,240,240,1,0,1
+results\predictions\qwen2.5_1.5b_predictions_v240.jsonl,qwen2.5:1.5b,240,240,1,0,1
+results\predictions\qwen2.5_3b_predictions_v240.jsonl,qwen2.5:3b,240,240,1,0,1
+results\predictions\qwen2.5_7b_predictions_v240.jsonl,qwen2.5:7b,240,240,1,0,1
+results\predictions\qwen2.5-coder_1.5b_predictions_v240.jsonl,qwen2.5-coder:1.5b,240,240,1,0,1
+results\predictions\qwen2.5-coder_3b_predictions_v240.jsonl,qwen2.5-coder:3b,240,240,1,0,1
+results\predictions\qwen2.5-coder_7b_predictions_v240.jsonl,qwen2.5-coder:7b,240,240,1,0,1
+results\predictions\qwen2.5-coder_14b_predictions_v240.jsonl,qwen2.5-coder:14b,240,240,1,0,1
+results\predictions\qwen3_8b_predictions_v240.jsonl,qwen3:8b,240,240,1,0,1
+results\predictions\qwen3_14b_predictions_v240_dedup.jsonl,qwen3:14b,240,240,1,0,1
+results\final\starcoder2_3b_predictions_v240_clean.jsonl,starcoder2:3b,240,240,1,31,1
+results\final\starcoder2_7b_predictions_v240_clean.jsonl,starcoder2:7b,240,240,1,2,1

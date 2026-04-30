@@ -1,0 +1,241 @@
+task_id,system_type,model,error,rater_a_correctness,rater_a_completeness,rater_a_traceability_usefulness,rater_a_governance_adequacy,rater_a_hallucination_risk,rater_a_rubric_total,rater_a_parse_ok,rater_a_slot_nonempty,rater_b_correctness,rater_b_completeness,rater_b_traceability_usefulness,rater_b_governance_adequacy,rater_b_hallucination_risk,rater_b_rubric_total,rater_b_parse_ok,rater_b_slot_nonempty,correctness,completeness,traceability_usefulness,governance_adequacy,hallucination_risk,rubric_total
+ADV-01,academic advising assistant,qwen2.5:7b,,1,2,1,1,2,7,1,6,1,2,1,1,2,7,1,6,1.0,2.0,1.0,1.0,2.0,7.0
+ADV-02,academic advising assistant,qwen2.5:7b,,1,2,0,2,1,6,1,6,1,2,0,2,2,7,1,6,1.0,2.0,0.0,2.0,1.5,6.5
+ADV-03,academic advising assistant,qwen2.5:7b,,2,2,0,1,1,6,1,6,2,2,0,1,1,6,1,6,2.0,2.0,0.0,1.0,1.0,6.0
+ADV-04,academic advising assistant,qwen2.5:7b,,1,2,0,1,1,5,1,6,1,2,0,1,1,5,1,6,1.0,2.0,0.0,1.0,1.0,5.0
+ADV-05,academic advising assistant,qwen2.5:7b,,1,2,0,1,1,5,1,6,1,2,0,1,1,5,1,6,1.0,2.0,0.0,1.0,1.0,5.0
+ADV-06,academic advising assistant,qwen2.5:7b,,1,2,1,1,1,6,1,6,1,2,1,2,2,8,1,6,1.0,2.0,1.0,1.5,1.5,7.0
+ADV-07,academic advising assistant,qwen2.5:7b,,0,2,1,2,1,6,1,6,0,2,1,2,2,7,1,6,0.0,2.0,1.0,2.0,1.5,6.5
+ADV-08,academic advising assistant,qwen2.5:7b,,0,2,1,2,1,6,1,6,0,2,1,2,2,7,1,6,0.0,2.0,1.0,2.0,1.5,6.5
+ADV-09,academic advising assistant,qwen2.5:7b,,1,2,1,1,1,6,1,6,1,2,1,1,1,6,1,6,1.0,2.0,1.0,1.0,1.0,6.0
+ADV-10,academic advising assistant,qwen2.5:7b,,2,2,1,2,2,9,1,6,2,2,1,2,2,9,1,6,2.0,2.0,1.0,2.0,2.0,9.0
+ADV-11,academic advising assistant,qwen2.5:7b,,2,2,0,1,1,6,1,6,2,2,0,1,1,6,1,6,2.0,2.0,0.0,1.0,1.0,6.0
+ADV-12,academic advising assistant,qwen2.5:7b,,1,2,1,1,1,6,1,6,1,2,1,1,2,7,1,6,1.0,2.0,1.0,1.0,1.5,6.5
+HR-01,HR policy assistant,qwen2.5:7b,,2,2,0,1,2,7,1,6,2,2,0,1,2,7,1,6,2.0,2.0,0.0,1.0,2.0,7.0
+HR-02,HR policy assistant,qwen2.5:7b,,2,2,0,2,1,7,1,6,2,2,0,2,2,8,1,6,2.0,2.0,0.0,2.0,1.5,7.5
+HR-03,HR policy assistant,qwen2.5:7b,,2,2,0,1,1,6,1,6,2,2,0,1,1,6,1,6,2.0,2.0,0.0,1.0,1.0,6.0
+HR-04,HR policy assistant,qwen2.5:7b,,2,2,0,1,1,6,1,6,2,2,0,2,1,7,1,6,2.0,2.0,0.0,1.5,1.0,6.5
+HR-05,HR policy assistant,qwen2.5:7b,,1,2,0,0,0,3,1,6,2,2,0,0,0,4,1,6,1.5,2.0,0.0,0.0,0.0,3.5
+HR-06,HR policy assistant,qwen2.5:7b,,2,2,0,1,0,5,1,6,2,2,0,1,0,5,1,6,2.0,2.0,0.0,1.0,0.0,5.0
+HR-07,HR policy assistant,qwen2.5:7b,,1,2,0,1,1,5,1,6,2,2,0,1,1,6,1,6,1.5,2.0,0.0,1.0,1.0,5.5
+HR-08,HR policy assistant,qwen2.5:7b,,1,2,1,1,1,6,1,6,1,2,1,1,1,6,1,6,1.0,2.0,1.0,1.0,1.0,6.0
+HR-09,HR policy assistant,qwen2.5:7b,,2,2,0,1,1,6,1,6,2,2,0,1,1,6,1,6,2.0,2.0,0.0,1.0,1.0,6.0
+HR-10,HR policy assistant,qwen2.5:7b,,2,2,0,1,0,5,1,6,2,2,0,1,0,5,1,6,2.0,2.0,0.0,1.0,0.0,5.0
+HR-11,HR policy assistant,qwen2.5:7b,,2,2,0,2,1,7,1,6,2,2,0,2,1,7,1,6,2.0,2.0,0.0,2.0,1.0,7.0
+HR-12,HR policy assistant,qwen2.5:7b,,2,2,0,1,0,5,1,6,2,2,0,2,0,6,1,6,2.0,2.0,0.0,1.5,0.0,5.5
+CODE-01,LLM code review assistant,qwen2.5:7b,,2,2,0,2,2,8,1,6,2,2,0,2,2,8,1,6,2.0,2.0,0.0,2.0,2.0,8.0
+CODE-02,LLM code review assistant,qwen2.5:7b,,2,2,0,1,1,6,1,6,2,2,0,1,2,7,1,6,2.0,2.0,0.0,1.0,1.5,6.5
+CODE-03,LLM code review assistant,qwen2.5:7b,,2,2,0,1,1,6,1,6,2,2,0,1,1,6,1,6,2.0,2.0,0.0,1.0,1.0,6.0
+CODE-04,LLM code review assistant,qwen2.5:7b,,2,2,0,1,1,6,1,6,2,2,0,1,1,6,1,6,2.0,2.0,0.0,1.0,1.0,6.0
+CODE-05,LLM code review assistant,qwen2.5:7b,,2,2,0,1,0,5,1,6,2,2,0,1,0,5,1,6,2.0,2.0,0.0,1.0,0.0,5.0
+CODE-06,LLM code review assistant,qwen2.5:7b,,2,2,0,1,1,6,1,6,2,2,0,1,1,6,1,6,2.0,2.0,0.0,1.0,1.0,6.0
+CODE-07,LLM code review assistant,qwen2.5:7b,,1,2,0,2,0,5,1,6,1,2,0,2,0,5,1,6,1.0,2.0,0.0,2.0,0.0,5.0
+CODE-08,LLM code review assistant,qwen2.5:7b,,1,2,1,1,1,6,1,6,2,2,1,2,1,8,1,6,1.5,2.0,1.0,1.5,1.0,7.0
+CODE-09,LLM code review assistant,qwen2.5:7b,,2,2,0,1,1,6,1,6,2,2,0,2,2,8,1,6,2.0,2.0,0.0,1.5,1.5,7.0
+CODE-10,LLM code review assistant,qwen2.5:7b,,2,2,0,1,1,6,1,6,2,2,0,1,1,6,1,6,2.0,2.0,0.0,1.0,1.0,6.0
+CODE-11,LLM code review assistant,qwen2.5:7b,,2,2,0,1,0,5,1,6,2,2,0,2,0,6,1,6,2.0,2.0,0.0,1.5,0.0,5.5
+CODE-12,LLM code review assistant,qwen2.5:7b,,2,2,1,1,1,7,1,6,2,2,1,2,1,8,1,6,2.0,2.0,1.0,1.5,1.0,7.5
+SUP-01,customer support chatbot,qwen2.5:7b,,1,2,0,1,2,6,1,6,1,2,0,1,2,6,1,6,1.0,2.0,0.0,1.0,2.0,6.0
+SUP-02,customer support chatbot,qwen2.5:7b,,1,2,0,1,1,5,1,6,1,2,0,1,1,5,1,6,1.0,2.0,0.0,1.0,1.0,5.0
+SUP-03,customer support chatbot,qwen2.5:7b,,1,2,0,1,1,5,1,6,1,2,0,2,2,7,1,6,1.0,2.0,0.0,1.5,1.5,6.0
+SUP-04,customer support chatbot,qwen2.5:7b,,2,2,0,1,1,6,1,6,2,2,0,1,1,6,1,6,2.0,2.0,0.0,1.0,1.0,6.0
+SUP-05,customer support chatbot,qwen2.5:7b,,1,2,0,1,0,4,1,6,1,2,0,1,0,4,1,6,1.0,2.0,0.0,1.0,0.0,4.0
+SUP-06,customer support chatbot,qwen2.5:7b,,2,2,0,1,2,7,1,6,2,2,0,2,2,8,1,6,2.0,2.0,0.0,1.5,2.0,7.5
+SUP-07,customer support chatbot,qwen2.5:7b,,1,2,0,1,0,4,1,6,1,2,0,1,0,4,1,6,1.0,2.0,0.0,1.0,0.0,4.0
+SUP-08,customer support chatbot,qwen2.5:7b,,1,2,0,2,1,6,1,6,1,2,0,2,1,6,1,6,1.0,2.0,0.0,2.0,1.0,6.0
+SUP-09,customer support chatbot,qwen2.5:7b,,1,2,0,0,1,4,1,6,1,2,0,0,1,4,1,6,1.0,2.0,0.0,0.0,1.0,4.0
+SUP-10,customer support chatbot,qwen2.5:7b,,1,2,0,1,0,4,1,6,1,2,0,1,0,4,1,6,1.0,2.0,0.0,1.0,0.0,4.0
+SUP-11,customer support chatbot,qwen2.5:7b,,2,2,0,2,0,6,1,6,2,2,0,2,0,6,1,6,2.0,2.0,0.0,2.0,0.0,6.0
+SUP-12,customer support chatbot,qwen2.5:7b,,1,2,1,1,1,6,1,6,1,2,1,2,1,7,1,6,1.0,2.0,1.0,1.5,1.0,6.5
+MED-01,clinical information assistant,qwen2.5:7b,,2,2,0,1,1,6,1,6,2,2,0,1,2,7,1,6,2.0,2.0,0.0,1.0,1.5,6.5
+MED-02,clinical information assistant,qwen2.5:7b,,2,2,0,1,1,6,1,6,2,2,0,1,2,7,1,6,2.0,2.0,0.0,1.0,1.5,6.5
+MED-03,clinical information assistant,qwen2.5:7b,,2,2,0,1,1,6,1,6,2,2,0,1,1,6,1,6,2.0,2.0,0.0,1.0,1.0,6.0
+MED-04,clinical information assistant,qwen2.5:7b,,2,2,0,1,1,6,1,6,2,2,0,1,1,6,1,6,2.0,2.0,0.0,1.0,1.0,6.0
+MED-05,clinical information assistant,qwen2.5:7b,,2,2,0,0,0,4,1,6,2,2,0,0,0,4,1,6,2.0,2.0,0.0,0.0,0.0,4.0
+MED-06,clinical information assistant,qwen2.5:7b,,2,2,0,1,1,6,1,6,2,2,0,1,1,6,1,6,2.0,2.0,0.0,1.0,1.0,6.0
+MED-07,clinical information assistant,qwen2.5:7b,,1,2,0,2,1,6,1,6,1,2,0,2,1,6,1,6,1.0,2.0,0.0,2.0,1.0,6.0
+MED-08,clinical information assistant,qwen2.5:7b,,2,2,1,1,0,6,1,6,2,2,1,1,0,6,1,6,2.0,2.0,1.0,1.0,0.0,6.0
+MED-09,clinical information assistant,qwen2.5:7b,,2,2,1,2,1,8,1,6,2,2,1,2,2,9,1,6,2.0,2.0,1.0,2.0,1.5,8.5
+MED-10,clinical information assistant,qwen2.5:7b,,2,2,0,1,1,6,1,6,2,2,0,1,2,7,1,6,2.0,2.0,0.0,1.0,1.5,6.5
+MED-11,clinical information assistant,qwen2.5:7b,,2,2,0,1,0,5,1,6,2,2,0,1,0,5,1,6,2.0,2.0,0.0,1.0,0.0,5.0
+MED-12,clinical information assistant,qwen2.5:7b,,2,2,1,1,0,6,1,6,2,2,1,1,0,6,1,6,2.0,2.0,1.0,1.0,0.0,6.0
+LEGAL-01,legal information assistant,qwen2.5:7b,,2,2,1,1,2,8,1,6,2,2,1,2,2,9,1,6,2.0,2.0,1.0,1.5,2.0,8.5
+LEGAL-02,legal information assistant,qwen2.5:7b,,2,2,0,1,1,6,1,6,2,2,0,2,2,8,1,6,2.0,2.0,0.0,1.5,1.5,7.0
+LEGAL-03,legal information assistant,qwen2.5:7b,,2,2,0,2,2,8,1,6,2,2,0,2,2,8,1,6,2.0,2.0,0.0,2.0,2.0,8.0
+LEGAL-04,legal information assistant,qwen2.5:7b,,2,2,0,1,1,6,1,6,2,2,0,1,1,6,1,6,2.0,2.0,0.0,1.0,1.0,6.0
+LEGAL-05,legal information assistant,qwen2.5:7b,,2,2,0,1,1,6,1,6,2,2,0,1,1,6,1,6,2.0,2.0,0.0,1.0,1.0,6.0
+LEGAL-06,legal information assistant,qwen2.5:7b,,2,2,0,1,1,6,1,6,2,2,0,1,1,6,1,6,2.0,2.0,0.0,1.0,1.0,6.0
+LEGAL-07,legal information assistant,qwen2.5:7b,,2,2,0,1,1,6,1,6,2,2,0,1,1,6,1,6,2.0,2.0,0.0,1.0,1.0,6.0
+LEGAL-08,legal information assistant,qwen2.5:7b,,2,2,1,2,1,8,1,6,2,2,1,2,2,9,1,6,2.0,2.0,1.0,2.0,1.5,8.5
+LEGAL-09,legal information assistant,qwen2.5:7b,,2,2,1,2,1,8,1,6,2,2,1,2,1,8,1,6,2.0,2.0,1.0,2.0,1.0,8.0
+LEGAL-10,legal information assistant,qwen2.5:7b,,2,2,0,1,0,5,1,6,2,2,0,1,0,5,1,6,2.0,2.0,0.0,1.0,0.0,5.0
+LEGAL-11,legal information assistant,qwen2.5:7b,,2,2,0,2,0,6,1,6,2,2,0,2,0,6,1,6,2.0,2.0,0.0,2.0,0.0,6.0
+LEGAL-12,legal information assistant,qwen2.5:7b,,2,2,1,1,1,7,1,6,2,2,1,1,1,7,1,6,2.0,2.0,1.0,1.0,1.0,7.0
+FIN-01,financial education assistant,qwen2.5:7b,,2,2,0,1,2,7,1,6,2,2,0,1,2,7,1,6,2.0,2.0,0.0,1.0,2.0,7.0
+FIN-02,financial education assistant,qwen2.5:7b,,2,2,0,1,0,5,1,6,2,2,0,1,0,5,1,6,2.0,2.0,0.0,1.0,0.0,5.0
+FIN-03,financial education assistant,qwen2.5:7b,,2,2,0,1,0,5,1,6,2,2,0,1,0,5,1,6,2.0,2.0,0.0,1.0,0.0,5.0
+FIN-04,financial education assistant,qwen2.5:7b,,2,2,0,1,1,6,1,6,2,2,0,1,1,6,1,6,2.0,2.0,0.0,1.0,1.0,6.0
+FIN-05,financial education assistant,qwen2.5:7b,,2,2,0,0,1,5,1,6,2,2,0,0,2,6,1,6,2.0,2.0,0.0,0.0,1.5,5.5
+FIN-06,financial education assistant,qwen2.5:7b,,2,2,0,1,2,7,1,6,2,2,0,2,2,8,1,6,2.0,2.0,0.0,1.5,2.0,7.5
+FIN-07,financial education assistant,qwen2.5:7b,,2,2,0,1,1,6,1,6,2,2,0,2,1,7,1,6,2.0,2.0,0.0,1.5,1.0,6.5
+FIN-08,financial education assistant,qwen2.5:7b,,2,2,1,1,1,7,1,6,2,2,1,1,1,7,1,6,2.0,2.0,1.0,1.0,1.0,7.0
+FIN-09,financial education assistant,qwen2.5:7b,,2,2,0,1,1,6,1,6,2,2,0,1,1,6,1,6,2.0,2.0,0.0,1.0,1.0,6.0
+FIN-10,financial education assistant,qwen2.5:7b,,2,2,0,1,0,5,1,6,2,2,0,1,0,5,1,6,2.0,2.0,0.0,1.0,0.0,5.0
+FIN-11,financial education assistant,qwen2.5:7b,,2,2,0,1,1,6,1,6,2,2,0,2,1,7,1,6,2.0,2.0,0.0,1.5,1.0,6.5
+FIN-12,financial education assistant,qwen2.5:7b,,2,2,1,1,0,6,1,6,2,2,1,1,0,6,1,6,2.0,2.0,1.0,1.0,0.0,6.0
+PROC-01,procurement assistant,qwen2.5:7b,,2,2,0,1,2,7,1,6,2,2,0,1,2,7,1,6,2.0,2.0,0.0,1.0,2.0,7.0
+PROC-02,procurement assistant,qwen2.5:7b,,2,2,0,1,1,6,1,6,2,2,0,1,2,7,1,6,2.0,2.0,0.0,1.0,1.5,6.5
+PROC-03,procurement assistant,qwen2.5:7b,,2,2,0,1,1,6,1,6,2,2,0,1,1,6,1,6,2.0,2.0,0.0,1.0,1.0,6.0
+PROC-04,procurement assistant,qwen2.5:7b,,2,2,0,1,1,6,1,6,2,2,0,1,1,6,1,6,2.0,2.0,0.0,1.0,1.0,6.0
+PROC-05,procurement assistant,qwen2.5:7b,,2,2,0,1,0,5,1,6,2,2,0,2,0,6,1,6,2.0,2.0,0.0,1.5,0.0,5.5
+PROC-06,procurement assistant,qwen2.5:7b,,2,2,0,1,1,6,1,6,2,2,0,2,2,8,1,6,2.0,2.0,0.0,1.5,1.5,7.0
+PROC-07,procurement assistant,qwen2.5:7b,,1,2,0,1,1,5,1,6,2,2,0,1,1,6,1,6,1.5,2.0,0.0,1.0,1.0,5.5
+PROC-08,procurement assistant,qwen2.5:7b,,1,2,1,1,1,6,1,6,2,2,1,2,1,8,1,6,1.5,2.0,1.0,1.5,1.0,7.0
+PROC-09,procurement assistant,qwen2.5:7b,,2,2,1,2,1,8,1,6,2,2,1,2,2,9,1,6,2.0,2.0,1.0,2.0,1.5,8.5
+PROC-10,procurement assistant,qwen2.5:7b,,2,2,0,1,1,6,1,6,2,2,0,1,1,6,1,6,2.0,2.0,0.0,1.0,1.0,6.0
+PROC-11,procurement assistant,qwen2.5:7b,,2,2,0,2,1,7,1,6,2,2,0,2,1,7,1,6,2.0,2.0,0.0,2.0,1.0,7.0
+PROC-12,procurement assistant,qwen2.5:7b,,2,2,0,1,1,6,1,6,2,2,0,1,1,6,1,6,2.0,2.0,0.0,1.0,1.0,6.0
+DATA-01,data analysis assistant,qwen2.5:7b,,1,2,0,2,2,7,1,6,2,2,0,2,2,8,1,6,1.5,2.0,0.0,2.0,2.0,7.5
+DATA-02,data analysis assistant,qwen2.5:7b,,1,2,0,1,1,5,1,6,2,2,0,1,2,7,1,6,1.5,2.0,0.0,1.0,1.5,6.0
+DATA-03,data analysis assistant,qwen2.5:7b,,2,2,1,1,1,7,1,6,2,2,1,2,1,8,1,6,2.0,2.0,1.0,1.5,1.0,7.5
+DATA-04,data analysis assistant,qwen2.5:7b,,1,2,0,1,1,5,1,6,2,2,0,1,1,6,1,6,1.5,2.0,0.0,1.0,1.0,5.5
+DATA-05,data analysis assistant,qwen2.5:7b,,2,2,0,1,1,6,1,6,2,2,0,1,1,6,1,6,2.0,2.0,0.0,1.0,1.0,6.0
+DATA-06,data analysis assistant,qwen2.5:7b,,1,2,1,2,1,7,1,6,2,2,1,2,2,9,1,6,1.5,2.0,1.0,2.0,1.5,8.0
+DATA-07,data analysis assistant,qwen2.5:7b,,1,2,0,1,1,5,1,6,2,2,0,1,1,6,1,6,1.5,2.0,0.0,1.0,1.0,5.5
+DATA-08,data analysis assistant,qwen2.5:7b,,1,2,0,1,1,5,1,6,1,2,0,1,1,5,1,6,1.0,2.0,0.0,1.0,1.0,5.0
+DATA-09,data analysis assistant,qwen2.5:7b,,1,2,0,1,1,5,1,6,2,2,0,2,2,8,1,6,1.5,2.0,0.0,1.5,1.5,6.5
+DATA-10,data analysis assistant,qwen2.5:7b,,1,2,0,1,1,5,1,6,2,2,0,2,2,8,1,6,1.5,2.0,0.0,1.5,1.5,6.5
+DATA-11,data analysis assistant,qwen2.5:7b,,1,2,0,2,1,6,1,6,2,2,0,2,1,7,1,6,1.5,2.0,0.0,2.0,1.0,6.5
+DATA-12,data analysis assistant,qwen2.5:7b,,1,2,1,1,1,6,1,6,2,2,1,1,1,7,1,6,1.5,2.0,1.0,1.0,1.0,6.5
+SEC-01,security operations assistant,qwen2.5:7b,,2,2,1,1,2,8,1,6,2,2,1,2,2,9,1,6,2.0,2.0,1.0,1.5,2.0,8.5
+SEC-02,security operations assistant,qwen2.5:7b,,1,2,0,2,1,6,1,6,2,2,0,2,2,8,1,6,1.5,2.0,0.0,2.0,1.5,7.0
+SEC-03,security operations assistant,qwen2.5:7b,,2,2,0,1,1,6,1,6,2,2,0,2,1,7,1,6,2.0,2.0,0.0,1.5,1.0,6.5
+SEC-04,security operations assistant,qwen2.5:7b,,2,2,0,1,1,6,1,6,2,2,0,2,1,7,1,6,2.0,2.0,0.0,1.5,1.0,6.5
+SEC-05,security operations assistant,qwen2.5:7b,,2,2,0,1,1,6,1,6,2,2,0,2,1,7,1,6,2.0,2.0,0.0,1.5,1.0,6.5
+SEC-06,security operations assistant,qwen2.5:7b,,2,2,1,2,1,8,1,6,2,2,1,2,2,9,1,6,2.0,2.0,1.0,2.0,1.5,8.5
+SEC-07,security operations assistant,qwen2.5:7b,,2,2,0,1,1,6,1,6,2,2,0,1,1,6,1,6,2.0,2.0,0.0,1.0,1.0,6.0
+SEC-08,security operations assistant,qwen2.5:7b,,0,2,0,1,1,4,1,6,0,2,0,1,1,4,1,6,0.0,2.0,0.0,1.0,1.0,4.0
+SEC-09,security operations assistant,qwen2.5:7b,,2,2,1,1,1,7,1,6,2,2,1,1,1,7,1,6,2.0,2.0,1.0,1.0,1.0,7.0
+SEC-10,security operations assistant,qwen2.5:7b,,2,2,0,2,1,7,1,6,2,2,0,2,1,7,1,6,2.0,2.0,0.0,2.0,1.0,7.0
+SEC-11,security operations assistant,qwen2.5:7b,,2,2,0,2,1,7,1,6,2,2,0,2,2,8,1,6,2.0,2.0,0.0,2.0,1.5,7.5
+SEC-12,security operations assistant,qwen2.5:7b,,2,2,1,1,0,6,1,6,2,2,1,2,0,7,1,6,2.0,2.0,1.0,1.5,0.0,6.5
+TEACH-01,AI teaching feedback assistant,qwen2.5:7b,,2,2,0,1,2,7,1,6,2,2,0,2,2,8,1,6,2.0,2.0,0.0,1.5,2.0,7.5
+TEACH-02,AI teaching feedback assistant,qwen2.5:7b,,2,2,0,1,1,6,1,6,2,2,0,2,2,8,1,6,2.0,2.0,0.0,1.5,1.5,7.0
+TEACH-03,AI teaching feedback assistant,qwen2.5:7b,,2,2,0,1,1,6,1,6,2,2,0,2,1,7,1,6,2.0,2.0,0.0,1.5,1.0,6.5
+TEACH-04,AI teaching feedback assistant,qwen2.5:7b,,2,2,0,1,1,6,1,6,2,2,0,1,1,6,1,6,2.0,2.0,0.0,1.0,1.0,6.0
+TEACH-05,AI teaching feedback assistant,qwen2.5:7b,,2,2,0,1,1,6,1,6,2,2,0,1,1,6,1,6,2.0,2.0,0.0,1.0,1.0,6.0
+TEACH-06,AI teaching feedback assistant,qwen2.5:7b,,2,2,1,2,1,8,1,6,2,2,1,2,1,8,1,6,2.0,2.0,1.0,2.0,1.0,8.0
+TEACH-07,AI teaching feedback assistant,qwen2.5:7b,,1,2,0,1,1,5,1,6,2,2,0,1,1,6,1,6,1.5,2.0,0.0,1.0,1.0,5.5
+TEACH-08,AI teaching feedback assistant,qwen2.5:7b,,2,2,1,1,1,7,1,6,2,2,1,1,1,7,1,6,2.0,2.0,1.0,1.0,1.0,7.0
+TEACH-09,AI teaching feedback assistant,qwen2.5:7b,,2,2,1,1,1,7,1,6,2,2,1,1,1,7,1,6,2.0,2.0,1.0,1.0,1.0,7.0
+TEACH-10,AI teaching feedback assistant,qwen2.5:7b,,2,2,0,1,0,5,1,6,2,2,0,1,0,5,1,6,2.0,2.0,0.0,1.0,0.0,5.0
+TEACH-11,AI teaching feedback assistant,qwen2.5:7b,,2,2,0,1,0,5,1,6,2,2,0,1,0,5,1,6,2.0,2.0,0.0,1.0,0.0,5.0
+TEACH-12,AI teaching feedback assistant,qwen2.5:7b,,2,2,0,1,1,6,1,6,2,2,0,1,1,6,1,6,2.0,2.0,0.0,1.0,1.0,6.0
+RES-01,research literature assistant,qwen2.5:7b,,0,2,0,1,0,3,1,6,0,2,0,2,0,4,1,6,0.0,2.0,0.0,1.5,0.0,3.5
+RES-02,research literature assistant,qwen2.5:7b,,1,2,0,2,1,6,1,6,1,2,0,2,2,7,1,6,1.0,2.0,0.0,2.0,1.5,6.5
+RES-03,research literature assistant,qwen2.5:7b,,2,2,0,1,0,5,1,6,2,2,0,2,0,6,1,6,2.0,2.0,0.0,1.5,0.0,5.5
+RES-04,research literature assistant,qwen2.5:7b,,1,2,0,2,0,5,1,6,1,2,0,2,0,5,1,6,1.0,2.0,0.0,2.0,0.0,5.0
+RES-05,research literature assistant,qwen2.5:7b,,1,2,0,2,1,6,1,6,1,2,0,2,2,7,1,6,1.0,2.0,0.0,2.0,1.5,6.5
+RES-06,research literature assistant,qwen2.5:7b,,1,2,0,2,2,7,1,6,1,2,0,2,2,7,1,6,1.0,2.0,0.0,2.0,2.0,7.0
+RES-07,research literature assistant,qwen2.5:7b,,1,2,0,1,2,6,1,6,1,2,0,1,2,6,1,6,1.0,2.0,0.0,1.0,2.0,6.0
+RES-08,research literature assistant,qwen2.5:7b,,1,2,1,1,0,5,1,6,1,2,1,1,0,5,1,6,1.0,2.0,1.0,1.0,0.0,5.0
+RES-09,research literature assistant,qwen2.5:7b,,1,2,1,2,1,7,1,6,1,2,1,2,2,8,1,6,1.0,2.0,1.0,2.0,1.5,7.5
+RES-10,research literature assistant,qwen2.5:7b,,2,2,1,1,1,7,1,6,2,2,1,1,2,8,1,6,2.0,2.0,1.0,1.0,1.5,7.5
+RES-11,research literature assistant,qwen2.5:7b,,1,2,1,2,1,7,1,6,1,2,1,2,2,8,1,6,1.0,2.0,1.0,2.0,1.5,7.5
+RES-12,research literature assistant,qwen2.5:7b,,2,2,1,2,1,8,1,6,2,2,1,2,2,9,1,6,2.0,2.0,1.0,2.0,1.5,8.5
+DEVOPS-01,DevOps incident assistant,qwen2.5:7b,,2,2,1,1,2,8,1,6,2,2,1,1,2,8,1,6,2.0,2.0,1.0,1.0,2.0,8.0
+DEVOPS-02,DevOps incident assistant,qwen2.5:7b,,2,2,0,1,1,6,1,6,2,2,0,1,2,7,1,6,2.0,2.0,0.0,1.0,1.5,6.5
+DEVOPS-03,DevOps incident assistant,qwen2.5:7b,,1,2,0,1,1,5,1,6,1,2,0,1,1,5,1,6,1.0,2.0,0.0,1.0,1.0,5.0
+DEVOPS-04,DevOps incident assistant,qwen2.5:7b,,2,2,0,1,0,5,1,6,2,2,0,1,0,5,1,6,2.0,2.0,0.0,1.0,0.0,5.0
+DEVOPS-05,DevOps incident assistant,qwen2.5:7b,,2,2,0,0,0,4,1,6,2,2,0,0,0,4,1,6,2.0,2.0,0.0,0.0,0.0,4.0
+DEVOPS-06,DevOps incident assistant,qwen2.5:7b,,2,2,0,1,1,6,1,6,2,2,0,1,2,7,1,6,2.0,2.0,0.0,1.0,1.5,6.5
+DEVOPS-07,DevOps incident assistant,qwen2.5:7b,,2,2,0,1,0,5,1,6,2,2,0,1,0,5,1,6,2.0,2.0,0.0,1.0,0.0,5.0
+DEVOPS-08,DevOps incident assistant,qwen2.5:7b,,2,2,1,1,1,7,1,6,2,2,1,1,1,7,1,6,2.0,2.0,1.0,1.0,1.0,7.0
+DEVOPS-09,DevOps incident assistant,qwen2.5:7b,,1,2,0,1,1,5,1,6,1,2,0,1,2,6,1,6,1.0,2.0,0.0,1.0,1.5,5.5
+DEVOPS-10,DevOps incident assistant,qwen2.5:7b,,2,2,0,1,1,6,1,6,2,2,0,1,2,7,1,6,2.0,2.0,0.0,1.0,1.5,6.5
+DEVOPS-11,DevOps incident assistant,qwen2.5:7b,,2,2,0,1,1,6,1,6,2,2,0,1,1,6,1,6,2.0,2.0,0.0,1.0,1.0,6.0
+DEVOPS-12,DevOps incident assistant,qwen2.5:7b,,2,2,1,1,1,7,1,6,2,2,1,1,1,7,1,6,2.0,2.0,1.0,1.0,1.0,7.0
+PRIV-01,privacy compliance assistant,qwen2.5:7b,,2,2,1,1,2,8,1,6,2,2,1,1,2,8,1,6,2.0,2.0,1.0,1.0,2.0,8.0
+PRIV-02,privacy compliance assistant,qwen2.5:7b,,2,2,0,1,1,6,1,6,2,2,0,2,2,8,1,6,2.0,2.0,0.0,1.5,1.5,7.0
+PRIV-03,privacy compliance assistant,qwen2.5:7b,,2,2,0,1,1,6,1,6,2,2,0,1,1,6,1,6,2.0,2.0,0.0,1.0,1.0,6.0
+PRIV-04,privacy compliance assistant,qwen2.5:7b,,2,2,0,1,1,6,1,6,2,2,0,1,1,6,1,6,2.0,2.0,0.0,1.0,1.0,6.0
+PRIV-05,privacy compliance assistant,qwen2.5:7b,,2,2,0,1,1,6,1,6,2,2,0,1,1,6,1,6,2.0,2.0,0.0,1.0,1.0,6.0
+PRIV-06,privacy compliance assistant,qwen2.5:7b,,2,2,0,1,1,6,1,6,2,2,0,1,1,6,1,6,2.0,2.0,0.0,1.0,1.0,6.0
+PRIV-07,privacy compliance assistant,qwen2.5:7b,,2,2,0,1,1,6,1,6,2,2,0,2,1,7,1,6,2.0,2.0,0.0,1.5,1.0,6.5
+PRIV-08,privacy compliance assistant,qwen2.5:7b,,1,2,1,2,1,7,1,6,2,2,1,2,1,8,1,6,1.5,2.0,1.0,2.0,1.0,7.5
+PRIV-09,privacy compliance assistant,qwen2.5:7b,,2,2,0,1,1,6,1,6,2,2,0,1,2,7,1,6,2.0,2.0,0.0,1.0,1.5,6.5
+PRIV-10,privacy compliance assistant,qwen2.5:7b,,2,2,0,1,1,6,1,6,2,2,0,2,1,7,1,6,2.0,2.0,0.0,1.5,1.0,6.5
+PRIV-11,privacy compliance assistant,qwen2.5:7b,,2,2,0,2,0,6,1,6,2,2,0,2,0,6,1,6,2.0,2.0,0.0,2.0,0.0,6.0
+PRIV-12,privacy compliance assistant,qwen2.5:7b,,2,2,1,1,1,7,1,6,2,2,1,2,1,8,1,6,2.0,2.0,1.0,1.5,1.0,7.5
+TICKET-01,IT ticket triage assistant,qwen2.5:7b,,2,2,0,1,2,7,1,6,2,2,0,1,2,7,1,6,2.0,2.0,0.0,1.0,2.0,7.0
+TICKET-02,IT ticket triage assistant,qwen2.5:7b,,2,2,0,1,1,6,1,6,2,2,0,2,2,8,1,6,2.0,2.0,0.0,1.5,1.5,7.0
+TICKET-03,IT ticket triage assistant,qwen2.5:7b,,2,2,0,1,1,6,1,6,2,2,0,1,1,6,1,6,2.0,2.0,0.0,1.0,1.0,6.0
+TICKET-04,IT ticket triage assistant,qwen2.5:7b,,2,2,0,2,1,7,1,6,2,2,0,2,1,7,1,6,2.0,2.0,0.0,2.0,1.0,7.0
+TICKET-05,IT ticket triage assistant,qwen2.5:7b,,2,2,0,1,1,6,1,6,2,2,0,1,1,6,1,6,2.0,2.0,0.0,1.0,1.0,6.0
+TICKET-06,IT ticket triage assistant,qwen2.5:7b,,2,2,0,1,1,6,1,6,2,2,0,2,2,8,1,6,2.0,2.0,0.0,1.5,1.5,7.0
+TICKET-07,IT ticket triage assistant,qwen2.5:7b,,1,2,0,1,0,4,1,6,2,2,0,1,0,5,1,6,1.5,2.0,0.0,1.0,0.0,4.5
+TICKET-08,IT ticket triage assistant,qwen2.5:7b,,1,2,1,2,1,7,1,6,2,2,1,2,2,9,1,6,1.5,2.0,1.0,2.0,1.5,8.0
+TICKET-09,IT ticket triage assistant,qwen2.5:7b,,2,2,0,1,1,6,1,6,2,2,0,1,1,6,1,6,2.0,2.0,0.0,1.0,1.0,6.0
+TICKET-10,IT ticket triage assistant,qwen2.5:7b,,1,2,0,1,1,5,1,6,2,2,0,1,1,6,1,6,1.5,2.0,0.0,1.0,1.0,5.5
+TICKET-11,IT ticket triage assistant,qwen2.5:7b,,2,2,0,2,1,7,1,6,2,2,0,2,1,7,1,6,2.0,2.0,0.0,2.0,1.0,7.0
+TICKET-12,IT ticket triage assistant,qwen2.5:7b,,2,2,0,1,1,6,1,6,2,2,0,1,1,6,1,6,2.0,2.0,0.0,1.0,1.0,6.0
+MEET-01,meeting summarization assistant,qwen2.5:7b,,2,2,0,2,1,7,1,6,2,2,0,2,2,8,1,6,2.0,2.0,0.0,2.0,1.5,7.5
+MEET-02,meeting summarization assistant,qwen2.5:7b,,1,2,0,1,1,5,1,6,2,2,0,1,2,7,1,6,1.5,2.0,0.0,1.0,1.5,6.0
+MEET-03,meeting summarization assistant,qwen2.5:7b,,2,2,0,1,1,6,1,6,2,2,0,2,1,7,1,6,2.0,2.0,0.0,1.5,1.0,6.5
+MEET-04,meeting summarization assistant,qwen2.5:7b,,2,2,0,2,0,6,1,6,2,2,0,2,0,6,1,6,2.0,2.0,0.0,2.0,0.0,6.0
+MEET-05,meeting summarization assistant,qwen2.5:7b,,2,2,1,1,1,7,1,6,2,2,1,2,1,8,1,6,2.0,2.0,1.0,1.5,1.0,7.5
+MEET-06,meeting summarization assistant,qwen2.5:7b,,2,2,1,2,1,8,1,6,2,2,1,2,2,9,1,6,2.0,2.0,1.0,2.0,1.5,8.5
+MEET-07,meeting summarization assistant,qwen2.5:7b,,1,2,0,1,1,5,1,6,1,2,0,1,1,5,1,6,1.0,2.0,0.0,1.0,1.0,5.0
+MEET-08,meeting summarization assistant,qwen2.5:7b,,1,2,0,1,1,5,1,6,1,2,0,2,1,6,1,6,1.0,2.0,0.0,1.5,1.0,5.5
+MEET-09,meeting summarization assistant,qwen2.5:7b,,2,2,0,2,1,7,1,6,2,2,0,2,1,7,1,6,2.0,2.0,0.0,2.0,1.0,7.0
+MEET-10,meeting summarization assistant,qwen2.5:7b,,2,2,0,1,1,6,1,6,2,2,0,1,1,6,1,6,2.0,2.0,0.0,1.0,1.0,6.0
+MEET-11,meeting summarization assistant,qwen2.5:7b,,2,2,1,2,0,7,1,6,2,2,1,2,0,7,1,6,2.0,2.0,1.0,2.0,0.0,7.0
+MEET-12,meeting summarization assistant,qwen2.5:7b,,2,2,1,1,1,7,1,6,2,2,1,1,1,7,1,6,2.0,2.0,1.0,1.0,1.0,7.0
+LIB-01,library help assistant,qwen2.5:7b,,2,2,0,1,2,7,1,6,2,2,0,2,2,8,1,6,2.0,2.0,0.0,1.5,2.0,7.5
+LIB-02,library help assistant,qwen2.5:7b,,1,2,0,1,1,5,1,6,2,2,0,1,1,6,1,6,1.5,2.0,0.0,1.0,1.0,5.5
+LIB-03,library help assistant,qwen2.5:7b,,2,2,0,1,1,6,1,6,2,2,0,1,1,6,1,6,2.0,2.0,0.0,1.0,1.0,6.0
+LIB-04,library help assistant,qwen2.5:7b,,2,2,0,1,0,5,1,6,2,2,0,1,0,5,1,6,2.0,2.0,0.0,1.0,0.0,5.0
+LIB-05,library help assistant,qwen2.5:7b,,2,2,0,1,1,6,1,6,2,2,0,1,1,6,1,6,2.0,2.0,0.0,1.0,1.0,6.0
+LIB-06,library help assistant,qwen2.5:7b,,2,2,0,2,2,8,1,6,2,2,0,2,2,8,1,6,2.0,2.0,0.0,2.0,2.0,8.0
+LIB-07,library help assistant,qwen2.5:7b,,1,2,0,1,1,5,1,6,1,2,0,1,1,5,1,6,1.0,2.0,0.0,1.0,1.0,5.0
+LIB-08,library help assistant,qwen2.5:7b,,1,2,0,1,1,5,1,6,1,2,0,2,1,6,1,6,1.0,2.0,0.0,1.5,1.0,5.5
+LIB-09,library help assistant,qwen2.5:7b,,2,2,1,2,1,8,1,6,2,2,1,2,2,9,1,6,2.0,2.0,1.0,2.0,1.5,8.5
+LIB-10,library help assistant,qwen2.5:7b,,2,2,0,1,1,6,1,6,2,2,0,1,1,6,1,6,2.0,2.0,0.0,1.0,1.0,6.0
+LIB-11,library help assistant,qwen2.5:7b,,2,2,0,2,0,6,1,6,2,2,0,2,0,6,1,6,2.0,2.0,0.0,2.0,0.0,6.0
+LIB-12,library help assistant,qwen2.5:7b,,2,2,0,1,0,5,1,6,2,2,0,1,0,5,1,6,2.0,2.0,0.0,1.0,0.0,5.0
+TRAVEL-01,corporate travel assistant,qwen2.5:7b,,2,2,0,1,1,6,1,6,2,2,0,1,2,7,1,6,2.0,2.0,0.0,1.0,1.5,6.5
+TRAVEL-02,corporate travel assistant,qwen2.5:7b,,2,2,0,1,1,6,1,6,2,2,0,1,1,6,1,6,2.0,2.0,0.0,1.0,1.0,6.0
+TRAVEL-03,corporate travel assistant,qwen2.5:7b,,1,2,0,1,1,5,1,6,1,2,0,1,1,5,1,6,1.0,2.0,0.0,1.0,1.0,5.0
+TRAVEL-04,corporate travel assistant,qwen2.5:7b,,1,2,0,1,1,5,1,6,1,2,0,1,1,5,1,6,1.0,2.0,0.0,1.0,1.0,5.0
+TRAVEL-05,corporate travel assistant,qwen2.5:7b,,2,2,0,1,1,6,1,6,2,2,0,1,1,6,1,6,2.0,2.0,0.0,1.0,1.0,6.0
+TRAVEL-06,corporate travel assistant,qwen2.5:7b,,2,2,0,1,1,6,1,6,2,2,0,1,2,7,1,6,2.0,2.0,0.0,1.0,1.5,6.5
+TRAVEL-07,corporate travel assistant,qwen2.5:7b,,1,2,0,1,1,5,1,6,2,2,0,1,1,6,1,6,1.5,2.0,0.0,1.0,1.0,5.5
+TRAVEL-08,corporate travel assistant,qwen2.5:7b,,1,2,0,1,1,5,1,6,1,2,0,1,1,5,1,6,1.0,2.0,0.0,1.0,1.0,5.0
+TRAVEL-09,corporate travel assistant,qwen2.5:7b,,2,2,0,1,1,6,1,6,2,2,0,1,2,7,1,6,2.0,2.0,0.0,1.0,1.5,6.5
+TRAVEL-10,corporate travel assistant,qwen2.5:7b,,1,2,0,1,1,5,1,6,1,2,0,1,1,5,1,6,1.0,2.0,0.0,1.0,1.0,5.0
+TRAVEL-11,corporate travel assistant,qwen2.5:7b,,2,2,0,2,1,7,1,6,2,2,0,2,1,7,1,6,2.0,2.0,0.0,2.0,1.0,7.0
+TRAVEL-12,corporate travel assistant,qwen2.5:7b,,1,2,0,1,1,5,1,6,1,2,0,1,1,5,1,6,1.0,2.0,0.0,1.0,1.0,5.0
+GRANT-01,research grant assistant,qwen2.5:7b,,1,2,1,1,2,7,1,6,1,2,1,1,2,7,1,6,1.0,2.0,1.0,1.0,2.0,7.0
+GRANT-02,research grant assistant,qwen2.5:7b,,1,2,0,1,2,6,1,6,1,2,0,1,2,6,1,6,1.0,2.0,0.0,1.0,2.0,6.0
+GRANT-03,research grant assistant,qwen2.5:7b,,1,2,0,1,1,5,1,6,1,2,0,1,1,5,1,6,1.0,2.0,0.0,1.0,1.0,5.0
+GRANT-04,research grant assistant,qwen2.5:7b,,1,2,0,1,1,5,1,6,1,2,0,2,1,6,1,6,1.0,2.0,0.0,1.5,1.0,5.5
+GRANT-05,research grant assistant,qwen2.5:7b,,1,2,0,1,1,5,1,6,1,2,0,1,1,5,1,6,1.0,2.0,0.0,1.0,1.0,5.0
+GRANT-06,research grant assistant,qwen2.5:7b,,1,2,1,1,1,6,1,6,1,2,1,2,2,8,1,6,1.0,2.0,1.0,1.5,1.5,7.0
+GRANT-07,research grant assistant,qwen2.5:7b,,1,2,0,1,1,5,1,6,1,2,0,1,1,5,1,6,1.0,2.0,0.0,1.0,1.0,5.0
+GRANT-08,research grant assistant,qwen2.5:7b,,1,2,1,1,1,6,1,6,1,2,1,2,1,7,1,6,1.0,2.0,1.0,1.5,1.0,6.5
+GRANT-09,research grant assistant,qwen2.5:7b,,1,2,1,2,1,7,1,6,1,2,1,2,2,8,1,6,1.0,2.0,1.0,2.0,1.5,7.5
+GRANT-10,research grant assistant,qwen2.5:7b,,1,2,0,1,2,6,1,6,1,2,0,2,2,7,1,6,1.0,2.0,0.0,1.5,2.0,6.5
+GRANT-11,research grant assistant,qwen2.5:7b,,1,2,0,1,1,5,1,6,1,2,0,1,1,5,1,6,1.0,2.0,0.0,1.0,1.0,5.0
+GRANT-12,research grant assistant,qwen2.5:7b,,1,2,1,1,1,6,1,6,1,2,1,1,1,6,1,6,1.0,2.0,1.0,1.0,1.0,6.0
+ACCESS-01,access control assistant,qwen2.5:7b,,2,2,0,2,2,8,1,6,2,2,0,2,2,8,1,6,2.0,2.0,0.0,2.0,2.0,8.0
+ACCESS-02,access control assistant,qwen2.5:7b,,2,2,0,1,1,6,1,6,2,2,0,1,1,6,1,6,2.0,2.0,0.0,1.0,1.0,6.0
+ACCESS-03,access control assistant,qwen2.5:7b,,2,2,0,1,1,6,1,6,2,2,0,2,1,7,1,6,2.0,2.0,0.0,1.5,1.0,6.5
+ACCESS-04,access control assistant,qwen2.5:7b,,2,2,0,1,1,6,1,6,2,2,0,1,1,6,1,6,2.0,2.0,0.0,1.0,1.0,6.0
+ACCESS-05,access control assistant,qwen2.5:7b,,2,2,1,1,1,7,1,6,2,2,1,1,1,7,1,6,2.0,2.0,1.0,1.0,1.0,7.0
+ACCESS-06,access control assistant,qwen2.5:7b,,2,2,1,2,2,9,1,6,2,2,1,2,2,9,1,6,2.0,2.0,1.0,2.0,2.0,9.0
+ACCESS-07,access control assistant,qwen2.5:7b,,2,2,0,1,1,6,1,6,2,2,0,2,1,7,1,6,2.0,2.0,0.0,1.5,1.0,6.5
+ACCESS-08,access control assistant,qwen2.5:7b,,2,2,0,2,1,7,1,6,2,2,0,2,1,7,1,6,2.0,2.0,0.0,2.0,1.0,7.0
+ACCESS-09,access control assistant,qwen2.5:7b,,2,2,1,1,1,7,1,6,2,2,1,1,1,7,1,6,2.0,2.0,1.0,1.0,1.0,7.0
+ACCESS-10,access control assistant,qwen2.5:7b,,2,2,0,1,1,6,1,6,2,2,0,1,1,6,1,6,2.0,2.0,0.0,1.0,1.0,6.0
+ACCESS-11,access control assistant,qwen2.5:7b,,2,2,0,1,1,6,1,6,2,2,0,1,1,6,1,6,2.0,2.0,0.0,1.0,1.0,6.0
+ACCESS-12,access control assistant,qwen2.5:7b,,2,2,1,1,1,7,1,6,2,2,1,1,1,7,1,6,2.0,2.0,1.0,1.0,1.0,7.0

@@ -1,0 +1,22 @@
+{
+  "task_file": "data/tasks/llm_re_tasks_v240.jsonl",
+  "prediction_dir": "results/predictions",
+  "final_dir": "results/final",
+  "models": [
+    { "tag": "codegemma:7b", "file": "codegemma_7b_predictions_v240.jsonl" },
+    { "tag": "granite-code:3b", "file": "granite-code_3b_predictions_v240.jsonl" },
+    { "tag": "granite-code:8b", "file": "granite-code_8b_predictions_v240_dedup.jsonl" },
+    { "tag": "llama3.2:3b", "file": "llama3.2_3b_predictions_v240.jsonl" },
+    { "tag": "qwen2.5:1.5b", "file": "qwen2.5_1.5b_predictions_v240.jsonl" },
+    { "tag": "qwen2.5:3b", "file": "qwen2.5_3b_predictions_v240.jsonl" },
+    { "tag": "qwen2.5:7b", "file": "qwen2.5_7b_predictions_v240.jsonl" },
+    { "tag": "qwen2.5-coder:1.5b", "file": "qwen2.5-coder_1.5b_predictions_v240.jsonl" },
+    { "tag": "qwen2.5-coder:3b", "file": "qwen2.5-coder_3b_predictions_v240.jsonl" },
+    { "tag": "qwen2.5-coder:7b", "file": "qwen2.5-coder_7b_predictions_v240.jsonl" },
+    { "tag": "qwen2.5-coder:14b", "file": "qwen2.5-coder_14b_predictions_v240.jsonl" },
+    { "tag": "qwen3:8b", "file": "qwen3_8b_predictions_v240.jsonl" },
+    { "tag": "qwen3:14b", "file": "qwen3_14b_predictions_v240_dedup.jsonl" },
+    { "tag": "starcoder2:3b", "file": "starcoder2_3b_predictions_v240.jsonl" },
+    { "tag": "starcoder2:7b", "file": "starcoder2_7b_predictions_v240.jsonl" }
+  ]
+}

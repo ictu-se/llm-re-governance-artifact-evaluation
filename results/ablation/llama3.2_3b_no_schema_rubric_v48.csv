@@ -1,0 +1,61 @@
+task_id,system_type,model,error,rater_a_correctness,rater_a_completeness,rater_a_traceability_usefulness,rater_a_governance_adequacy,rater_a_hallucination_risk,rater_a_rubric_total,rater_a_parse_ok,rater_a_slot_nonempty,rater_b_correctness,rater_b_completeness,rater_b_traceability_usefulness,rater_b_governance_adequacy,rater_b_hallucination_risk,rater_b_rubric_total,rater_b_parse_ok,rater_b_slot_nonempty,correctness,completeness,traceability_usefulness,governance_adequacy,hallucination_risk,rubric_total
+ADV-01,academic advising assistant,llama3.2:3b__no_schema,,1,2,1,2,2,8,1,6,1,2,1,2,2,8,1,6,1.0,2.0,1.0,2.0,2.0,8.0
+ADV-02,academic advising assistant,llama3.2:3b__no_schema,,1,2,1,2,2,8,1,6,1,2,1,2,2,8,1,6,1.0,2.0,1.0,2.0,2.0,8.0
+ADV-03,academic advising assistant,llama3.2:3b__no_schema,,1,2,1,2,1,7,1,6,1,2,1,2,1,7,1,6,1.0,2.0,1.0,2.0,1.0,7.0
+HR-01,HR policy assistant,llama3.2:3b__no_schema,,2,2,0,1,2,7,1,6,2,2,0,1,2,7,1,6,2.0,2.0,0.0,1.0,2.0,7.0
+HR-02,HR policy assistant,llama3.2:3b__no_schema,,2,2,0,2,1,7,1,6,2,2,0,2,2,8,1,6,2.0,2.0,0.0,2.0,1.5,7.5
+HR-03,HR policy assistant,llama3.2:3b__no_schema,,1,2,0,1,1,5,1,6,2,2,0,1,1,6,1,6,1.5,2.0,0.0,1.0,1.0,5.5
+CODE-01,LLM code review assistant,llama3.2:3b__no_schema,,2,2,0,2,2,8,1,6,2,2,0,2,2,8,1,6,2.0,2.0,0.0,2.0,2.0,8.0
+CODE-02,LLM code review assistant,llama3.2:3b__no_schema,,2,2,1,2,1,8,1,6,2,2,1,2,2,9,1,6,2.0,2.0,1.0,2.0,1.5,8.5
+CODE-03,LLM code review assistant,llama3.2:3b__no_schema,,2,2,0,1,1,6,1,6,2,2,0,1,1,6,1,6,2.0,2.0,0.0,1.0,1.0,6.0
+SUP-01,customer support chatbot,llama3.2:3b__no_schema,,1,2,0,1,2,6,1,6,1,2,0,1,2,6,1,6,1.0,2.0,0.0,1.0,2.0,6.0
+SUP-02,customer support chatbot,llama3.2:3b__no_schema,,1,2,0,1,1,5,1,6,1,2,0,1,2,6,1,6,1.0,2.0,0.0,1.0,1.5,5.5
+SUP-03,customer support chatbot,llama3.2:3b__no_schema,,1,2,0,1,1,5,1,6,1,2,0,1,1,5,1,6,1.0,2.0,0.0,1.0,1.0,5.0
+MED-01,clinical information assistant,llama3.2:3b__no_schema,,2,2,0,1,2,7,1,6,2,2,0,2,2,8,1,6,2.0,2.0,0.0,1.5,2.0,7.5
+MED-02,clinical information assistant,llama3.2:3b__no_schema,,2,2,0,2,1,7,1,6,2,2,0,2,1,7,1,6,2.0,2.0,0.0,2.0,1.0,7.0
+MED-03,clinical information assistant,llama3.2:3b__no_schema,,2,2,0,1,0,5,1,6,2,2,0,1,0,5,1,6,2.0,2.0,0.0,1.0,0.0,5.0
+LEGAL-01,legal information assistant,llama3.2:3b__no_schema,,2,2,0,2,2,8,1,6,2,2,0,2,2,8,1,6,2.0,2.0,0.0,2.0,2.0,8.0
+LEGAL-02,legal information assistant,llama3.2:3b__no_schema,,2,2,1,2,1,8,1,6,2,2,1,2,2,9,1,6,2.0,2.0,1.0,2.0,1.5,8.5
+LEGAL-03,legal information assistant,llama3.2:3b__no_schema,,2,2,0,1,1,6,1,6,2,2,0,2,1,7,1,6,2.0,2.0,0.0,1.5,1.0,6.5
+FIN-01,financial education assistant,llama3.2:3b__no_schema,,2,2,0,1,2,7,1,6,2,2,0,2,2,8,1,6,2.0,2.0,0.0,1.5,2.0,7.5
+FIN-02,financial education assistant,llama3.2:3b__no_schema,,2,2,0,2,0,6,1,6,2,2,0,2,0,6,1,6,2.0,2.0,0.0,2.0,0.0,6.0
+FIN-03,financial education assistant,llama3.2:3b__no_schema,,2,2,0,1,0,5,1,6,2,2,0,1,0,5,1,6,2.0,2.0,0.0,1.0,0.0,5.0
+PROC-01,procurement assistant,llama3.2:3b__no_schema,,2,2,0,1,2,7,1,6,2,2,0,1,2,7,1,6,2.0,2.0,0.0,1.0,2.0,7.0
+PROC-02,procurement assistant,llama3.2:3b__no_schema,,2,2,0,2,1,7,1,6,2,2,0,2,2,8,1,6,2.0,2.0,0.0,2.0,1.5,7.5
+PROC-03,procurement assistant,llama3.2:3b__no_schema,,2,2,0,1,1,6,1,6,2,2,0,1,1,6,1,6,2.0,2.0,0.0,1.0,1.0,6.0
+DATA-01,data analysis assistant,llama3.2:3b__no_schema,,1,2,0,1,2,6,1,6,2,2,0,2,2,8,1,6,1.5,2.0,0.0,1.5,2.0,7.0
+DATA-02,data analysis assistant,llama3.2:3b__no_schema,,1,2,0,2,1,6,1,6,2,2,0,2,1,7,1,6,1.5,2.0,0.0,2.0,1.0,6.5
+DATA-03,data analysis assistant,llama3.2:3b__no_schema,,2,2,0,1,0,5,1,6,2,2,0,1,0,5,1,6,2.0,2.0,0.0,1.0,0.0,5.0
+SEC-01,security operations assistant,llama3.2:3b__no_schema,,1,2,0,1,2,6,1,6,1,2,0,1,2,6,1,6,1.0,2.0,0.0,1.0,2.0,6.0
+SEC-02,security operations assistant,llama3.2:3b__no_schema,,2,2,0,2,1,7,1,6,2,2,0,2,1,7,1,6,2.0,2.0,0.0,2.0,1.0,7.0
+SEC-03,security operations assistant,llama3.2:3b__no_schema,,1,2,0,1,0,4,1,6,2,2,0,1,0,5,1,6,1.5,2.0,0.0,1.0,0.0,4.5
+TEACH-01,AI teaching feedback assistant,llama3.2:3b__no_schema,,1,2,0,2,2,7,1,6,2,2,0,2,2,8,1,6,1.5,2.0,0.0,2.0,2.0,7.5
+TEACH-02,AI teaching feedback assistant,llama3.2:3b__no_schema,,2,2,0,2,1,7,1,6,2,2,0,2,2,8,1,6,2.0,2.0,0.0,2.0,1.5,7.5
+TEACH-03,AI teaching feedback assistant,llama3.2:3b__no_schema,,2,2,0,1,1,6,1,6,2,2,0,1,1,6,1,6,2.0,2.0,0.0,1.0,1.0,6.0
+RES-01,research literature assistant,llama3.2:3b__no_schema,,0,2,0,2,2,6,1,6,0,2,0,2,2,6,1,6,0.0,2.0,0.0,2.0,2.0,6.0
+RES-02,research literature assistant,llama3.2:3b__no_schema,,1,2,0,2,1,6,1,6,1,2,0,2,2,7,1,6,1.0,2.0,0.0,2.0,1.5,6.5
+RES-03,research literature assistant,llama3.2:3b__no_schema,,1,2,0,2,1,6,1,6,1,2,0,2,2,7,1,6,1.0,2.0,0.0,2.0,1.5,6.5
+DEVOPS-01,DevOps incident assistant,llama3.2:3b__no_schema,,1,2,0,1,2,6,1,6,1,2,0,1,2,6,1,6,1.0,2.0,0.0,1.0,2.0,6.0
+DEVOPS-02,DevOps incident assistant,llama3.2:3b__no_schema,,1,2,0,1,1,5,1,6,1,2,0,1,2,6,1,6,1.0,2.0,0.0,1.0,1.5,5.5
+DEVOPS-03,DevOps incident assistant,llama3.2:3b__no_schema,,2,2,0,1,0,5,1,6,2,2,0,1,0,5,1,6,2.0,2.0,0.0,1.0,0.0,5.0
+PRIV-01,privacy compliance assistant,llama3.2:3b__no_schema,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0.0
+PRIV-02,privacy compliance assistant,llama3.2:3b__no_schema,,2,2,0,2,1,7,1,6,2,2,0,2,2,8,1,6,2.0,2.0,0.0,2.0,1.5,7.5
+PRIV-03,privacy compliance assistant,llama3.2:3b__no_schema,,2,2,0,1,1,6,1,6,2,2,0,2,1,7,1,6,2.0,2.0,0.0,1.5,1.0,6.5
+TICKET-01,IT ticket triage assistant,llama3.2:3b__no_schema,,2,2,0,2,2,8,1,6,2,2,0,2,2,8,1,6,2.0,2.0,0.0,2.0,2.0,8.0
+TICKET-02,IT ticket triage assistant,llama3.2:3b__no_schema,,2,2,0,2,1,7,1,6,2,2,0,2,2,8,1,6,2.0,2.0,0.0,2.0,1.5,7.5
+TICKET-03,IT ticket triage assistant,llama3.2:3b__no_schema,,2,2,0,1,2,7,1,6,2,2,0,1,2,7,1,6,2.0,2.0,0.0,1.0,2.0,7.0
+MEET-01,meeting summarization assistant,llama3.2:3b__no_schema,,2,2,1,2,2,9,1,6,2,2,2,2,2,10,1,6,2.0,2.0,1.5,2.0,2.0,9.5
+MEET-02,meeting summarization assistant,llama3.2:3b__no_schema,,2,2,0,2,1,7,1,6,2,2,0,2,1,7,1,6,2.0,2.0,0.0,2.0,1.0,7.0
+MEET-03,meeting summarization assistant,llama3.2:3b__no_schema,,2,2,0,1,1,6,1,6,2,2,0,2,1,7,1,6,2.0,2.0,0.0,1.5,1.0,6.5
+LIB-01,library help assistant,llama3.2:3b__no_schema,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0.0
+LIB-02,library help assistant,llama3.2:3b__no_schema,,2,2,0,2,1,7,1,6,2,2,0,2,2,8,1,6,2.0,2.0,0.0,2.0,1.5,7.5
+LIB-03,library help assistant,llama3.2:3b__no_schema,,2,2,0,1,1,6,1,6,2,2,0,1,1,6,1,6,2.0,2.0,0.0,1.0,1.0,6.0
+TRAVEL-01,corporate travel assistant,llama3.2:3b__no_schema,,1,2,0,1,2,6,1,6,1,2,0,2,2,7,1,6,1.0,2.0,0.0,1.5,2.0,6.5
+TRAVEL-02,corporate travel assistant,llama3.2:3b__no_schema,,1,2,0,1,1,5,1,6,1,2,0,1,2,6,1,6,1.0,2.0,0.0,1.0,1.5,5.5
+TRAVEL-03,corporate travel assistant,llama3.2:3b__no_schema,,1,2,0,1,1,5,1,6,1,2,0,1,1,5,1,6,1.0,2.0,0.0,1.0,1.0,5.0
+GRANT-01,research grant assistant,llama3.2:3b__no_schema,,1,2,0,1,1,5,1,6,1,2,0,1,2,6,1,6,1.0,2.0,0.0,1.0,1.5,5.5
+GRANT-02,research grant assistant,llama3.2:3b__no_schema,,1,2,0,2,1,6,1,6,1,2,0,2,2,7,1,6,1.0,2.0,0.0,2.0,1.5,6.5
+GRANT-03,research grant assistant,llama3.2:3b__no_schema,,1,2,0,1,1,5,1,6,1,2,0,1,1,5,1,6,1.0,2.0,0.0,1.0,1.0,5.0
+ACCESS-01,access control assistant,llama3.2:3b__no_schema,,2,2,1,1,2,8,1,6,2,2,1,2,2,9,1,6,2.0,2.0,1.0,1.5,2.0,8.5
+ACCESS-02,access control assistant,llama3.2:3b__no_schema,,2,2,1,2,2,9,1,6,2,2,1,2,2,9,1,6,2.0,2.0,1.0,2.0,2.0,9.0
+ACCESS-03,access control assistant,llama3.2:3b__no_schema,,2,2,1,1,0,6,1,6,2,2,1,1,0,6,1,6,2.0,2.0,1.0,1.0,0.0,6.0

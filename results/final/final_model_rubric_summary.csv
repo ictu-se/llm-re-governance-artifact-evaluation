@@ -1,0 +1,16 @@
+model,family,size_b,n,mean_rubric_total,ci95_low,ci95_high
+codegemma:7b,codegemma,7.0,240,6.6625,6.5521,6.775
+granite-code:3b,granite-code,3.0,240,6.1833,6.0479,6.3167
+granite-code:8b,granite-code,8.0,240,6.7083,6.5312,6.875
+llama3.2:3b,llama3.2,3.0,240,6.8292,6.6688,6.9854
+qwen2.5-coder:1.5b,qwen2.5-coder,1.5,240,6.6917,6.4458,6.9271
+qwen2.5-coder:14b,qwen2.5-coder,14.0,240,6.4708,6.3354,6.6021
+qwen2.5-coder:3b,qwen2.5-coder,3.0,240,6.775,6.6396,6.9
+qwen2.5-coder:7b,qwen2.5-coder,7.0,240,6.9,6.7646,7.0417
+qwen2.5:1.5b,qwen2.5,1.5,240,6.7812,6.5917,6.9604
+qwen2.5:3b,qwen2.5,3.0,240,7.1146,6.9604,7.2604
+qwen2.5:7b,qwen2.5,7.0,240,6.2917,6.1646,6.4208
+qwen3:14b,qwen3,14.0,240,6.8875,6.7062,7.0583
+qwen3:8b,qwen3,8.0,240,6.6896,6.5354,6.8583
+starcoder2:3b,starcoder2,3.0,240,0.5188,0.3167,0.7375
+starcoder2:7b,starcoder2,7.0,240,1.1021,0.7979,1.4292

@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this replication package, please cite the associated paper."
+title: "Evaluating Local LLMs for Requirements-Engineering Governance Artifacts in LLM-Based Software Systems"
+authors:
+  - family-names: "Author"
+    given-names: "First"
+  - family-names: "Author"
+    given-names: "Second"
+year: 2026
+type: software
+license: MIT
+repository-code: "https://github.com/REPLACE_WITH_OWNER/llm-re-governance-artifact-evaluation"
