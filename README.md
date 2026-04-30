@@ -13,7 +13,6 @@ The study evaluates whether locally executed LLMs can generate structured requir
 |-- config/                         # Model list and experiment configuration
 |-- data/tasks/                     # Benchmark task files
 |-- docs/                           # Protocol, rubric, and result notes
-|-- paper/                          # Springer manuscript source, figures, references, and PDF
 |-- results/
 |   |-- predictions/                # Saved model outputs used by the paper
 |   |-- final/                      # Final metrics, rubric summaries, manifest
@@ -24,6 +23,8 @@ The study evaluates whether locally executed LLMs can generate structured requir
 |-- run_q1_pipeline.ps1             # Recompute final metrics and summaries
 `-- run_ablation_schema.ps1         # Re-run schema-prompt ablation
 ```
+
+The repository is a replication package only. It intentionally does not include manuscript source files, compiled paper PDFs, submission templates, author information, or journal submission material before formal publication.
 
 ## Requirements
 
