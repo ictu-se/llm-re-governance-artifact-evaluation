@@ -1,0 +1,3 @@
+model,n,mean_parse_ok,mean_slot_coverage,mean_gold_keyword_recall,mean_risk_control_recall,mean_traceability_signal_recall,mean_elapsed_sec
+template_baseline_generic,240,1.0,1.0,0.0356,0.1667,0.0,0.0
+template_baseline_grounded,240,1.0,1.0,0.3748,0.5344,0.0,0.0

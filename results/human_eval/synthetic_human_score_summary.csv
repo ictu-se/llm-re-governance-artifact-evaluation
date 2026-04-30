@@ -1,0 +1,8 @@
+model,n_ratings,mean_total_0_10,min_total,max_total
+codegemma:7b,144,6.2847,3.0,10.0
+granite-code:8b,144,6.8264,3.0,10.0
+llama3.2:3b,144,6.6597,2.0,10.0
+qwen2.5-coder:7b,144,6.8889,3.0,10.0
+qwen2.5:3b,144,7.0417,3.0,10.0
+qwen3:14b,144,6.6319,3.0,10.0
+starcoder2:7b,144,1.625,0.0,10.0

@@ -1,0 +1,2 @@
+comparison,n_items,pearson_r,spearman_rho,mean_difference_automated_minus_human,synthetic_data_detected
+automated_total_vs_mean_human_total,336,0.9677,0.9169,0.119,1

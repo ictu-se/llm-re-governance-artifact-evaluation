@@ -1,0 +1,16 @@
+model,file,n_rows,task_count,total_elapsed_sec,mean_elapsed_sec,max_elapsed_sec,errors,throughput_tasks_per_min
+codegemma:7b,results\predictions\codegemma_7b_predictions_v240.jsonl,240,240,1063.713,4.432,9.304,0,13.5375
+granite-code:3b,results\predictions\granite-code_3b_predictions_v240.jsonl,240,240,791.735,3.299,6.526,0,18.1879
+granite-code:8b,results\predictions\granite-code_8b_predictions_v240_dedup.jsonl,240,240,3573.35,14.889,902.307,0,4.0298
+llama3.2:3b,results\predictions\llama3.2_3b_predictions_v240.jsonl,240,240,1659.043,6.913,10.44,0,8.6797
+qwen2.5:1.5b,results\predictions\qwen2.5_1.5b_predictions_v240.jsonl,240,240,1035.138,4.313,7.443,0,13.9112
+qwen2.5:3b,results\predictions\qwen2.5_3b_predictions_v240.jsonl,240,240,785.083,3.271,8.718,0,18.342
+qwen2.5:7b,results\predictions\qwen2.5_7b_predictions_v240.jsonl,240,240,1035.824,4.316,10.475,0,13.902
+qwen2.5-coder:1.5b,results\predictions\qwen2.5-coder_1.5b_predictions_v240.jsonl,240,240,1161.666,4.84,9.617,0,12.396
+qwen2.5-coder:3b,results\predictions\qwen2.5-coder_3b_predictions_v240.jsonl,240,240,1192.83,4.97,7.642,0,12.0721
+qwen2.5-coder:7b,results\predictions\qwen2.5-coder_7b_predictions_v240.jsonl,240,240,1126.615,4.694,9.532,0,12.7817
+qwen2.5-coder:14b,results\predictions\qwen2.5-coder_14b_predictions_v240.jsonl,240,240,1751.065,7.296,13.472,0,8.2236
+qwen3:8b,results\predictions\qwen3_8b_predictions_v240.jsonl,240,240,2941.702,12.257,26.755,0,4.8951
+qwen3:14b,results\predictions\qwen3_14b_predictions_v240_dedup.jsonl,240,240,9582.448,39.927,961.245,0,1.5027
+starcoder2:3b,results\final\starcoder2_3b_predictions_v240_clean.jsonl,240,240,846.451,4.05,144.987,31,17.0122
+starcoder2:7b,results\final\starcoder2_7b_predictions_v240_clean.jsonl,240,240,826.032,3.471,18.546,2,17.4327

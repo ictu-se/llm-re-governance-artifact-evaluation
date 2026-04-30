@@ -13,9 +13,11 @@ The study evaluates whether locally executed LLMs can generate structured requir
 |-- config/                         # Model list and experiment configuration
 |-- data/tasks/                     # Benchmark task files
 |-- docs/                           # Protocol, rubric, and result notes
+|-- paper/                          # Springer manuscript source, figures, references, and PDF
 |-- results/
 |   |-- predictions/                # Saved model outputs used by the paper
 |   |-- final/                      # Final metrics, rubric summaries, manifest
+|   |-- human_eval/                 # Human-review template and placeholder workflow
 |   `-- ablation/                   # Schema/no-schema ablation outputs
 |-- scripts/                        # Reusable experiment and analysis scripts
 |-- run_full_experiment.ps1         # Re-run local model generation with Ollama
@@ -46,6 +48,12 @@ The repository includes the saved prediction files used for the current paper dr
 .\run_q1_pipeline.ps1
 ```
 
+If local PowerShell policy blocks unsigned scripts, run the same pipeline with:
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File .\run_q1_pipeline.ps1
+```
+
 Expected high-level outputs:
 
 - `results/final/final_prediction_manifest.csv`
@@ -53,6 +61,15 @@ Expected high-level outputs:
 - `results/final/final_model_rubric_summary.csv`
 - `results/final/final_family_rubric_summary.csv`
 - `results/final/statistical_comparisons_family.csv`
+- `results/final/paired_model_comparisons_top_models.csv`
+- `results/final/runtime_summary.csv`
+- `results/final/split_robustness_model_summary.csv`
+- `results/final/split_robustness_family_summary.csv`
+- `results/final/system_type_difficulty_non_starcoder.csv`
+- `results/final/rubric_dimension_summary_non_starcoder.csv`
+- `results/final/scenario_slice_summary_non_starcoder.csv`
+- `results/final/error_taxonomy_summary.csv`
+- `results/baseline/template_baseline_metrics_summary.csv`
 - one `*_metrics.csv` and one `*_rubric.csv` file per included model run
 
 ## Re-running the Main Experiment
@@ -66,7 +83,7 @@ To regenerate predictions from local Ollama models:
 
 The full experiment can take a long time because it runs 240 tasks for each model. The generation script is resumable: if an output JSONL already contains completed task IDs, it skips those rows and appends only missing tasks.
 
-The final paper excludes `qwen3:4b` from the main final table because that run was incomplete during drafting. The full experiment script follows the included final-analysis model list.
+The final paper excludes the earlier `qwen3:4b` pilot because it is not part of the released final artifact package. The full experiment script follows the included final-analysis model list.
 
 ## Re-running the Prompt-Schema Ablation
 
@@ -107,7 +124,38 @@ See `docs/RUBRIC_Q1.md` for scoring rules.
 
 ## Human Evaluation
 
-The repository includes scripts for preparing human-review templates and computing agreement statistics, including Cohen's kappa and Krippendorff's alpha. Synthetic placeholder ratings are intentionally not included in this repository and must not be reported as human evaluation. Replace the template with real independent expert ratings before making human-evaluation claims.
+The repository includes scripts for preparing human-review templates and computing agreement statistics, including Cohen's kappa, Fleiss' kappa, and Krippendorff's alpha. It also includes a synthetic placeholder dataset in `results/human_eval/` for testing the analysis pipeline. These placeholder rows are marked with `synthetic_data=1` and must not be reported as human evaluation.
+
+After replacing the template with real independent expert ratings, run:
+
+```powershell
+python scripts\human_eval_analysis.py --ratings results\human_eval\real_human_ratings_3reviewers.csv --rubric-glob "results/final/*_rubric.csv" --outdir results\human_eval\real_analysis
+```
+
+The analysis produces human agreement, model-level human score summaries, item-level mean scores, and automated-vs-human correlation outputs.
+
+## Paired Model Comparisons
+
+Selected top-model paired comparisons can be regenerated with:
+
+```powershell
+python scripts\paired_model_comparisons.py --rubric-glob "results/final/*_rubric.csv" --models "qwen2.5:3b" "qwen2.5-coder:7b" "qwen3:14b" "llama3.2:3b" "qwen3:8b" "codegemma:7b" --out results\final\paired_model_comparisons_top_models.csv
+```
+
+This uses shared task identifiers and reports Wilcoxon signed-rank results plus a paired sign effect.
+
+## Diagnostic Baselines and Error Slices
+
+The repository includes non-LLM diagnostic baselines:
+
+```powershell
+python scripts\make_template_baseline.py --mode generic --tasks data\tasks\llm_re_tasks_v240.jsonl --out results\baseline\template_baseline_generic_predictions_v240.jsonl
+python scripts\make_template_baseline.py --mode grounded --tasks data\tasks\llm_re_tasks_v240.jsonl --out results\baseline\template_baseline_grounded_predictions_v240.jsonl
+```
+
+The generic skeleton baseline checks whether merely filling the output slots is enough. The grounded rule-template baseline copies task fields into a fixed structure and is used as a construct-validity check for the automated rubric, not as a deployable requirements-engineering method.
+
+Runtime summaries, split robustness checks, scenario slices, system-type difficulty, rubric-dimension summaries, diagnostic baselines, and heuristic error taxonomy are regenerated by `run_q1_pipeline.ps1`.
 
 ## Reproducibility Notes
 

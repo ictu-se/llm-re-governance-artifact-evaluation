@@ -1,0 +1,8 @@
+model,n_items,mean_human_total_0_10,synthetic_data_detected
+codegemma:7b,48,6.2847,1
+granite-code:8b,48,6.8264,1
+llama3.2:3b,48,6.6597,1
+qwen2.5-coder:7b,48,6.8889,1
+qwen2.5:3b,48,7.0417,1
+qwen3:14b,48,6.6319,1
+starcoder2:7b,48,1.625,1

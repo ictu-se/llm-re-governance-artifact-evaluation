@@ -22,7 +22,7 @@ The final v240 analysis currently includes 15 completed model runs, each with 24
 - `starcoder2:3b`
 - `starcoder2:7b`
 
-`qwen3:4b` is excluded from the final table until it reaches 240/240 tasks.
+The earlier `qwen3:4b` pilot is not part of the released final artifact package and is not reported as a final-analysis result.
 
 ## Cleaning Decisions
 
@@ -31,7 +31,7 @@ Retry outputs were merged without overwriting successful original rows:
 - `starcoder2:3b`: 42 timeout rows were replaced by successful retry rows; 31 timeout rows remain.
 - `starcoder2:7b`: 5 timeout rows were replaced by successful retry rows; 2 timeout rows remain.
 
-Manifest: `runs/final/final_prediction_manifest.csv`.
+Manifest: `results/final/final_prediction_manifest.csv`.
 
 ## Rubric
 
@@ -49,17 +49,21 @@ Each dimension is scored from 0 to 2. Total rubric score ranges from 0 to 10.
 
 Agreement was computed between two deterministic automated proxy raters:
 
-- Cohen's kappa by dimension: `runs/final/rubric_agreement.csv`
-- Krippendorff's ordinal alpha by dimension and overall: `runs/final/rubric_agreement.csv`
+- Cohen's kappa by dimension: `results/final/rubric_agreement.csv`
+- Krippendorff's ordinal alpha by dimension and overall: `results/final/rubric_agreement.csv`
 
 Important reporting note: these are automated proxy agreement values for pipeline validation. They should not be reported as human inter-rater reliability unless replaced by independent human annotations.
 
 ## Final Tables
 
-- Automatic metrics summary: `runs/final/final_automatic_metrics_summary.csv`
-- Model-level rubric summary with bootstrap 95% CIs: `runs/final/final_model_rubric_summary.csv`
-- Family-level rubric summary with bootstrap 95% CIs: `runs/final/final_family_rubric_summary.csv`
-- Pairwise family statistical comparisons: `runs/final/statistical_comparisons_family.csv`
+- Automatic metrics summary: `results/final/final_automatic_metrics_summary.csv`
+- Model-level rubric summary with bootstrap 95% CIs: `results/final/final_model_rubric_summary.csv`
+- Family-level rubric summary with bootstrap 95% CIs: `results/final/final_family_rubric_summary.csv`
+- Pairwise family statistical comparisons: `results/final/statistical_comparisons_family.csv`
+- Paired top-model comparisons: `results/final/paired_model_comparisons_top_models.csv`
+- Runtime summary: `results/final/runtime_summary.csv`
+- Split robustness: `results/final/split_robustness_model_summary.csv`
+- Scenario slices and error taxonomy: `results/final/scenario_slice_summary_non_starcoder.csv`, `results/final/error_taxonomy_summary.csv`
 
 ## Current Rubric Ranking by Mean Total Score
 
@@ -88,11 +92,11 @@ Runner: `run_ablation_schema.ps1`.
 
 Outputs:
 
-- predictions: `runs/ablation/*_predictions_v48.jsonl`
-- rubric scores: `runs/ablation/*_rubric_v48.csv`
-- summary after completion: `runs/ablation/ablation_schema_summary_v48.csv`
+- predictions: `results/ablation/*_predictions_v48.jsonl`
+- rubric scores: `results/ablation/*_rubric_v48.csv`
+- summary after completion: `results/ablation/ablation_schema_summary_v48.csv`
 
-The ablation job is currently running in the background.
+The saved ablation outputs have been scored and summarized.
 
 ## Remaining Work Before Manuscript Submission
 
@@ -105,11 +109,11 @@ For a Q1 submission, replace or supplement automated proxy rubric scores with in
 
 ## Synthetic Placeholder Human Evaluation
 
-A synthetic 12-reviewer placeholder file was generated only for pipeline testing and table drafting:
+A synthetic three-reviewer placeholder file is provided only for pipeline testing and table drafting:
 
-- ratings: `runs/final/synthetic_12_expert_human_eval_PLACEHOLDER.csv`
-- multi-rater agreement: `runs/final/synthetic_12_expert_agreement_PLACEHOLDER.csv`
-- reviewer 1 vs reviewer 2 agreement: `runs/final/synthetic_reviewer01_02_agreement_PLACEHOLDER.csv`
+- ratings: `results/human_eval/synthetic_human_ratings_3reviewers.csv`
+- agreement output: `results/human_eval/synthetic_analysis/human_agreement_summary.csv`
+- model summary output: `results/human_eval/synthetic_analysis/human_model_summary.csv`
 
 Every row is marked with `synthetic_data=1` and `replacement_required_before_submission=1`.
 

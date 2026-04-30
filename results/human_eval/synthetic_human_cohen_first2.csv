@@ -1,0 +1,6 @@
+dimension,n_pairs,cohen_kappa
+correctness_0_2,336,0.4806
+completeness_0_2,336,0.3547
+traceability_usefulness_0_2,336,0.5435
+governance_adequacy_0_2,336,0.5256
+hallucination_risk_0_2,336,0.5332

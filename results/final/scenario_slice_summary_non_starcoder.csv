@@ -1,0 +1,13 @@
+scenario,n,mean_rubric_total
+tool_authority,260,6.0115
+policy_exception,260,6.075
+prompt_injection,260,6.075
+sensitive_information,260,6.1673
+regression_testing,260,6.3904
+advice_boundary,260,6.5192
+severity_classification,260,6.7077
+unsupported_request,260,7.1
+stale_evidence,260,7.1038
+auditability,260,7.1865
+citation_grounding,260,7.35
+factual_answering,260,7.6077

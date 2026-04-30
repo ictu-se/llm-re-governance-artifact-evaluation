@@ -1,0 +1,6 @@
+dimension,n_items,min_raters_per_item,max_raters_per_item,fleiss_kappa,krippendorff_alpha_ordinal,synthetic_data_detected
+correctness_0_2,336,3,3,0.5224,0.7005,1
+completeness_0_2,336,3,3,0.3668,0.6205,1
+traceability_usefulness_0_2,336,3,3,0.4976,0.5551,1
+governance_adequacy_0_2,336,3,3,0.4901,0.6807,1
+hallucination_risk_0_2,336,3,3,0.5208,0.7202,1

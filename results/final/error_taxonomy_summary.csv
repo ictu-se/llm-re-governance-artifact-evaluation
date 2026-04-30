@@ -1,0 +1,10 @@
+category,n,percent
+missing_traceability,2322,64.5
+generic_traceability,784,21.78
+malformed_or_unparseable,399,11.08
+runtime_or_timeout,33,0.92
+incomplete_artifact,22,0.61
+incorrect_or_off_context,15,0.42
+no_major_flag,10,0.28
+weak_governance,8,0.22
+unsupported_or_risky_content,7,0.19

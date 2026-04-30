@@ -60,14 +60,14 @@ Chay nhanh 3 model local:
 - `qwen2.5:3b`
 - `qwen2.5-coder:3b`
 
-Sau pilot co the mo rong sang `qwen2.5-coder:7b`, `qwen3:4b`, `qwen3:8b` neu can.
+Sau pilot, final-analysis package da mo rong sang 15 completed model runs, including Qwen2.5, Qwen2.5-Coder, Qwen3 8B/14B, Llama, Granite-Code, CodeGemma, and StarCoder2. `qwen3:4b` khong nam trong released final package.
 
 ## Cach dung ket qua trong bai
 
 Ket qua pilot chi nen duoc trinh bay nhu feasibility/pilot evaluation cho framework, khong phai leaderboard. Neu muon thanh bai empirical manh, can mo rong:
 
-- 60+ tasks;
-- 3-5 system types;
-- 4-6 model families;
-- human review 2 nguoi cho artifact quality;
+- 240 tasks;
+- 20 system types;
+- 7 model families;
+- deterministic automated rubric plus independent human review workflow;
 - ablation prompt with/without traceability schema.
